@@ -1,13 +1,13 @@
-<configuration debug='true'>
+<configuration>
     <timestamp datePattern="yyyyMMdd" key="today" />
 
-    <appender name="LOGCAT" class="ch.qos.logback.classic.android.LogcatAppender">
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
         <encoder>
-            <pattern>[%thread](%file:%line\)%M: %msg%n</pattern>
+            <pattern>%cyan(%d{HH:mm:ss.SSS}) %gray([%thread]) %highlight(%-5level) %magenta(%logger{36}) (%file:%line\) %M: %msg%n</pattern>
         </encoder>
     </appender>
 
     <root level="DEBUG">
-        <appender-ref ref="LOGCAT" />
+        <appender-ref ref="STDOUT" />
     </root>
 </configuration>

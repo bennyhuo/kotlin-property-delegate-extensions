@@ -1,1 +1,1 @@
-include(":app",":kotlin-property-delegate-extensions")
+include(":sample",":kotlin-property-delegate-extensions")

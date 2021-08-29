@@ -7,10 +7,10 @@ tasks.withType<JavaCompile> {
 }
 
 dependencies {
-    api("org.jetbrains.kotlin:kotlin-stdlib:1.5.30")
+    implementation("org.jetbrains.kotlin:kotlin-stdlib:1.5.30")
 
-    api("org.slf4j:slf4j-api:1.7.25")
-    api("ch.qos.logback:logback-site:1.3.0-alpha5")
+    implementation("org.slf4j:slf4j-api:1.7.25")
+    implementation("ch.qos.logback:logback-classic:1.3.0-alpha10")
 
     implementation(project(":kotlin-property-delegate-extensions"))
 }

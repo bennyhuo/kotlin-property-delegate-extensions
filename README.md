@@ -1,9 +1,6 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-
 # kotlin-property-delegate-extensions
-
-
 
 # How to use
 
